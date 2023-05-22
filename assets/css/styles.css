@@ -1,3 +1,14 @@
+@font-face {
+    font-family: paralines;
+    src: url(../font/Paralines-Regular.otf);
+}
+
+.logo{
+    text-align: center;
+    font-family: paralines;
+    font-size: 4em;
+}
+
 .main_news{
     background-color: darkolivegreen;
     border-color: brown;
