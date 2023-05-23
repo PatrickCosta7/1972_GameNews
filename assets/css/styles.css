@@ -7,10 +7,21 @@
     text-align: center;
     font-family: paralines;
     font-size: 4em;
-    color: #FF0303;
+    color: #34B3F1;
 }
 
-/* .navbar-custom {} */
+.barra_custom {
+    background-color: rgba(46, 56, 64, 0.7);
+}
+
+.coresTexto1 {
+    color: #F15412;
+    font-size: 1.1em;
+}
+
+.coresTexto1:hover {
+    color: #F9DBBB;
+}
 
 .main_news{
     background-color: darkolivegreen;
