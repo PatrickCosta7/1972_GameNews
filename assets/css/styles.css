@@ -23,11 +23,17 @@
     color: #F9DBBB;
 }
 
+.titulo {
+    color: #F15412;
+    font-size: 1.1em;
+}
+
+.texto{
+    font-size: 0.8em;
+}
+
 .main_news{
-    background-color: darkolivegreen;
-    border-color: brown;
-    border-style: solid;
-    border-width: 2px;
+    background-color: #4E6E81
 }
 
 .second_news{
