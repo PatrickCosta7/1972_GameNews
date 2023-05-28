@@ -10,23 +10,48 @@
     color: #34B3F1;
 }
 
+.news{
+    text-align: center;
+    font-family: paralines;
+    font-size: 3em;
+    color: #34B3F1;
+}
+
+
 .barra_custom {
-    background-color: rgba(46, 56, 64, 0.7);
+    background-color: rgba(255, 3, 3, 0.8);
 }
 
 .coresTexto1 {
-    color: #F15412;
+    color: #F9DBBB;
     font-size: 1.1em;
 }
 
 .coresTexto1:hover {
-    color: #F9DBBB;
+    color: #34B3F1;
+}
+
+.selecionado {
+    color: #34B3F1;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
 .titulo {
-    color: #F15412;
-    font-size: 1.1em;
+    color: #34B3F1;
+    font-size: 1em;
 }
+
+.titulo2 {
+    color: #F15412;
+    font-size: 1.5em;
+}
+
+.titulo3 {
+    color: #F15412;
+    font-size: 1em;
+}
+
 
 .texto{
     font-size: 0.8em;
@@ -37,15 +62,11 @@
 }
 
 .second_news{
-    background-color: cadetblue;
-    border-color: red;
-    border-style: solid;
-    border-width: 2px;
+    background-color: #F9DBBB;
 }
 
 .thrid_news{
-    background-color: tomato;
-    border-color: darkviolet;
+    border-color: #34B3F1;
     border-style: solid;
     border-width: 2px;
 }
