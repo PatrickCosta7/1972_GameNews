@@ -14,7 +14,7 @@
     text-align: center;
     font-family: paralines;
     font-size: 3em;
-    color: #34B3F1;
+    color: rgba(255, 3, 3, 1);
 }
 
 
@@ -43,18 +43,29 @@
 }
 
 .titulo2 {
-    color: #F15412;
-    font-size: 1.5em;
+    color: #F9DBBB; 
+    font-size: 1.5em;    
 }
 
 .titulo3 {
-    color: #F15412;
+    color: #F9DBBB; 
     font-size: 1em;
 }
 
+.tituloMateria {
+    color: rgba(255, 3, 3, 0.8);
+    font-size: 1.7em;
+    text-align: center;
+}
 
 .texto{
     font-size: 0.8em;
+    color: black;
+}
+
+.textoMateria{
+    font-size: 1em;
+    text-align: justify;
 }
 
 .main_news{
