@@ -1,3 +1,13 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
 @font-face {
     font-family: paralines;
     src: url(../font/Paralines-Regular.otf);
@@ -19,7 +29,7 @@
 
 
 .barra_custom {
-    background-color: rgba(255, 3, 3, 0.8);
+    background-color: rgba(255, 3, 3, 0.7);
 }
 
 .coresTexto1 {
@@ -29,6 +39,15 @@
 
 .coresTexto1:hover {
     color: #34B3F1;
+}
+
+.coresTexto2 {
+    color: #4E6E81;
+    font-size: 1.1em;
+}
+
+.coresTexto2:hover {
+    color: #F9DBBB;
 }
 
 .selecionado {
@@ -69,7 +88,7 @@
 }
 
 .main_news{
-    background-color: #4E6E81
+    background-color: #4E6E81;
 }
 
 .second_news{
@@ -80,4 +99,9 @@
     border-color: #34B3F1;
     border-style: solid;
     border-width: 2px;
+}
+
+.botaoModal{
+    background-color: #4E6E81;
+    
 }
