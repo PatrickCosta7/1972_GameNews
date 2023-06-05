@@ -9,30 +9,11 @@ https://www.geeksforgeeks.org/how-to-run-javascript-from-php/
 
 Errors: https://www.youtube.com/watch?v=HLx-zbl6siM
 
-*Montar e personalizar Modal
-*Criar sistema do XAMPP
+
+*Apresentar para o grupo o "back".
+*Criar diagrama de casos de Uso.
+*Começar a fazer o paper e a apresentação.
 
 
-
-<?php
-    include("conexao.php");
-
-    $nome=$_POST['nome'];
-    $email=$_POST['email'];
-    $telefone=$_POST['telefone'];
-    
-    $sql="INSERT INTO cadastro(nome, email, telefone)  VALUES ('$nome', '$email', '$telefone')";
-    
-
-    if(mysqli_query($conexao, $sql)) {
-        echo "<script type='text/javascript'> alert('Cadastro feito com sucesso!'); </script>"; 
-    } else {
-        $erro = mysqli_connect_error();
-        echo "<script type='text/javascript'> alert('Erro no cadastro: $erro'); </script>"; 
-    }
-
-
-    mysqli_close($conexao);
-?>
 
   
