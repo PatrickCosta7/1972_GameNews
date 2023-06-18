@@ -61,10 +61,7 @@ input[type=number]{
     font-size: 1em;
 }
 
-.titulo2 {
-    color: #F9DBBB; 
-    font-size: 1.5em;    
-}
+
 
 .titulo3 {
     color: #F9DBBB; 
@@ -89,6 +86,11 @@ input[type=number]{
 
 .main_news{
     background-color: #4E6E81;
+}
+
+.titulo2 {
+    color: #F9DBBB; 
+    font-size: 1.5em;    
 }
 
 .second_news{
